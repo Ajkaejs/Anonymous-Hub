@@ -1,1 +1,4 @@
-
+local ID = game.PlaceId
+if ID == 70679403248874 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Ajkaejs/Anonymous-Hub/main/Scripts/Arcadia.lua"))()
+end
