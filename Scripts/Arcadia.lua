@@ -15,7 +15,7 @@ local Window = Rayfield:CreateWindow({
 
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = "Amongus hub",
+      FolderName = "Anonymous Hub",
       FileName = "Arcadia Script"
    },
 
@@ -287,3 +287,4 @@ EspTab:CreateToggle({
         ManageESP()
    end,
 })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ajkaejs/Anonymous-Hub/main/Scripts/SettingsTab.lua"))()
